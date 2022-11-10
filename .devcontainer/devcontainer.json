@@ -1,6 +1,5 @@
 {
-	"name": "Debian",
-	"image": "mcr.microsoft.com/devcontainers/base:buster",
-	"postCreateCommand": "bash ./post-create.sh",
-	"postStartCommand": "sudo apt update -y && sudo apt upgrade -y"
+	"name": "Red Hat Universal Base Image 8",
+	"image": "registry.access.redhat.com/ubi8/ubi:8.1",
+	// "postCreateCommand": "bash ./.devcontainer/post-create.sh"
 }
