@@ -1,5 +1,5 @@
 {
 	"name": "Red Hat Universal Base Image 8",
-	"image": "registry.access.redhat.com/ubi8/ubi:8.1",
+	"image": "redhat/ubi8-init"
 	// "postCreateCommand": "bash ./.devcontainer/post-create.sh"
 }
