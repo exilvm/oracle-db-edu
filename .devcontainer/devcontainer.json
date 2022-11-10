@@ -1,6 +1,8 @@
 {
 	"name": "Debian",
-	"image": "mcr.microsoft.com/devcontainers/base:buster"
+	"image": "mcr.microsoft.com/devcontainers/base:buster",
+	"postCreateCommand": "sudo apt update -y && sudo apt upgrade -y && sudo apt install yum -y",
+	"postStartCommand": "sudo apt update -y && sudo apt upgrade -y"
 
 	// Features to add to the dev container. More info: https://containers.dev/implementors/features.
 	// "features": {},
