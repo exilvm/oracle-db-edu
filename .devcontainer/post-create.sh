@@ -9,4 +9,4 @@ name=Oracle Linux $releasever Latest ($basearch)
 baseurl=https://yum.oracle.com/repo/OracleLinux/OL7/latest/$basearch/
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
 gpgcheck=0
-enabled=1' | sudo tee /etc/yum/repos.d/ol7-temp
+enabled=1' | sudo tee /etc/yum/repos.d/ol7-temp.repo
