@@ -10,3 +10,4 @@ gpgcheck=1
 enabled=1' > /etc/yum.repos.d/ol8-temp.repo
 dnf install oraclelinux-release-el8
 mv /etc/yum.repos.d/ol8-temp.repo /etc/yum.repos.d/ol8-temp.repo.disabled
+echo '%wheel        ALL=(ALL)       ALL' > /etc/sudoers

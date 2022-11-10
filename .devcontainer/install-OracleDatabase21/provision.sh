@@ -30,6 +30,8 @@ sudo mkdir -p "$ORACLE_HOME"
 sudo chown -R oracle:oinstall "$ORACLE_BASE"/..
 sudo chmod -R 775 "$ORACLE_BASE"/..
 
+sudo usermod –aG wheel oracle
+
 # Set environment variables
 sudo tee -a /home/oracle/.bash_profile <<EOT
 export ORACLE_BASE=$ORACLE_BASE
